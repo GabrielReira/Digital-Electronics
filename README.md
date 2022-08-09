@@ -1,4 +1,4 @@
-# Digital-Electronics
+# Eletrônica Digital
 
 Este repositório foi criado com o intuito de armazenar meus projetos desenvolvidos durante a disciplina de Eletrônica Digital da Universidade Federal da Bahia (UFBA).
 
