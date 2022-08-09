@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/modelsim-pong/fsm.sv {1 {vlog -work work -sv -stats=none /home/gabriel/Desktop/modelsim-pong/fsm.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} /home/gabriel/Desktop/modelsim-pong/fsm_tb.sv {1 {vlog -work work -sv -stats=none /home/gabriel/Desktop/modelsim-pong/fsm_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pong_tb
+
+Top level modules:
+	pong_tb
+
+} {} {}}

@@ -1,0 +1,27 @@
+Riviera-PRO 2020.04.130.7729(Linux64) 2022-05-24 17:19:59
+
+Elaboration top modules:
+Verilog Module                detector_tb
+
+
+---------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------
+detector_tb             | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns
+detector_estrutural     | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns
+detector_dataflow       | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns
+detector_comportamental | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns
+d_ff                    | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------
+work                    | None
+---------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

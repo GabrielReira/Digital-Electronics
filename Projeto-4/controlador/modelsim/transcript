@@ -1,0 +1,239 @@
+# Loading project controlador_bombas
+# Compile of controlador_TB.v was successful.
+# Compile of bomba_1.v was successful.
+# Compile of bomba_2.v was successful.
+# Compile of controlador_bombas.v was successful.
+# Compile of controlador_TB.v was successful.
+vsim work.controlador_TB
+# vsim work.controlador_TB 
+# Start time: 17:52:35 on Jun 21,2022
+# Loading work.controlador_TB
+# Loading work.controlador_bombas
+# Loading work.bomba_1
+# Loading work.bomba_2
+step -out
+step -out
+# s1: 0, s2: 0, s3: 0, s4: 0, Motor 1: x, Motor 2: x
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 0, s2: 0, s3: 0, s4: 0, Motor 1: 1, Motor 2: 0
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 0, s2: 1, s3: 0, s4: 0, Motor 1: 0, Motor 2: 0
+step -out
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 1, s2: 0, s3: 0, s4: 0, Motor 1: 1, Motor 2: 1
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+step -out
+# s1: 1, s2: 1, s3: 0, s4: 0, Motor 1: 0, Motor 2: 1
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 1, s2: 1, s3: 1, s4: 0, Motor 1: 0, Motor 2: 1
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 1, s2: 1, s3: 0, s4: 1, Motor 1: 0, Motor 2: 0
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 1, s2: 1, s3: 1, s4: 1, Motor 1: 0, Motor 2: 0
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 1, s2: 0, s3: 1, s4: 1, Motor 1: 1, Motor 2: 0
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+# s1: 1, s2: 0, s3: 1, s4: 0, Motor 1: 1, Motor 2: 1
+step -out
+# Next activity is in 10 ns.
+step -out
+step -out
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+# s1: 0, s2: 0, s3: 1, s4: 0, Motor 1: 1, Motor 2: 0
+step -over
+step -over
+step -over
+step -over
+step -over
+step -out
+step -out
+# Next activity is in 10 ns.
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+# s1: 1, s2: 0, s3: 1, s4: 0, Motor 1: 1, Motor 2: 1
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+step -over
+# s1: 0, s2: 1, s3: 1, s4: 0, Motor 1: 0, Motor 2: 0
+step -out
+step -out
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -out
+step -out
+step -out
+step -out
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+# s1: 1, s2: 0, s3: 0, s4: 1, Motor 1: 0, Motor 2: 0
+# Next activity is in 9740 ns.
+step -over
+# ** Note: $finish    : /home/gabriel/Desktop/programming/modelsim_projects/controlador_TB.v(21)
+#    Time: 10 us  Iteration: 0  Instance: /controlador_TB
+# 1
+# Break in Module controlador_TB at /home/gabriel/Desktop/programming/modelsim_projects/controlador_TB.v line 21
+step -over
+# Nothing left to do.
+step -over
+# Nothing left to do.
+step -over
+# Nothing left to do.
+# End time: 17:56:50 on Jun 21,2022, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 13

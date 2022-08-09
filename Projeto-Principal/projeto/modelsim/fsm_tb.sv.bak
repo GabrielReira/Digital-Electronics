@@ -1,0 +1,27 @@
+`timescale 1ns/10ps 
+
+module pong_tb;
+  reg clk, clk_pix, sim_rst, btn_fire;
+
+  fsm DUT (clk, clk_pix, sim_rst, btn_fire);
+	
+  initial	begin
+    display_outputs;
+    btn_fire = 1;
+    display_outputs;
+    btn_fire = 0;
+    display_outputs;
+    DUT.colEsquerda = 1;
+    display_outputs;
+  end
+
+  task display_outputs;
+    begin
+      #10 clk = ~clk;
+      #10 clk = ~clk;
+      $display(
+        "Estado atual=%b", DUT.state
+      );
+    end
+  endtask
+endmodule

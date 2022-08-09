@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/fifo/modelsim/fifo.v {1 {vlog -work work -stats=none /home/gabriel/Desktop/fifo/modelsim/fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} /home/gabriel/Desktop/fifo/modelsim/fifo_TB.v {1 {vlog -work work -stats=none /home/gabriel/Desktop/fifo/modelsim/fifo_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo_TB
+
+Top level modules:
+	fifo_TB
+
+} {} {}}

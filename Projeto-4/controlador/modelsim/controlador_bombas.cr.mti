@@ -1,0 +1,29 @@
+/home/gabriel/Desktop/programming/modelsim_projects/controlador_TB.v {1 {vlog -work work -stats=none /home/gabriel/Desktop/programming/modelsim_projects/controlador_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controlador_TB
+
+Top level modules:
+	controlador_TB
+
+} {} {}} /home/gabriel/Desktop/programming/modelsim_projects/bomba_1.v {1 {vlog -work work -stats=none /home/gabriel/Desktop/programming/modelsim_projects/bomba_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bomba_1
+
+Top level modules:
+	bomba_1
+
+} {} {}} /home/gabriel/Desktop/programming/modelsim_projects/controlador_bombas.v {1 {vlog -work work -stats=none /home/gabriel/Desktop/programming/modelsim_projects/controlador_bombas.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controlador_bombas
+
+Top level modules:
+	controlador_bombas
+
+} {} {}} /home/gabriel/Desktop/programming/modelsim_projects/bomba_2.v {1 {vlog -work work -stats=none /home/gabriel/Desktop/programming/modelsim_projects/bomba_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bomba_2
+
+Top level modules:
+	bomba_2
+
+} {} {}}

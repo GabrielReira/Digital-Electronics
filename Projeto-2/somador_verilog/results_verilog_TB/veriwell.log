@@ -1,0 +1,35 @@
+
+
+Veriwell version 2.8.7, 
+Copyright (C) 1993-2008 Elliot Mednick and Mark Hummel
+
+Veriwell comes with ABSOLUTELY NO WARRANTY; This is free
+software, and you are welcome to redistribute it under the
+terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version. 
+
+lxt  support compiled in
+lxt2 support compiled in
+
+Entering Phase I...
+Compiling source file : design.sv
+Compiling source file : testbench.sv
+
+Entering Phase II...
+Entering Phase III...
+No errors in compilation
+Top-level modules:
+   adder_32_TB
+
+                   0 x=         0, y=         0, cin=0, cout=0, sum=         0
+                  10 x=         1, y=         1, cin=0, cout=0, sum=         2
+                  15 x=      5000, y=     10200, cin=0, cout=0, sum=     15200
+                  20 x=      5000, y=     10200, cin=1, cout=0, sum=     15201
+                  25 x=         0, y=         1, cin=1, cout=0, sum=         2
+                  30 x=      5000, y=     10207, cin=1, cout=0, sum=     15208
+Exiting Veriwell at time 10000
+0 Errors, 0 Warnings, Compile time = 0.0, Load time = 0.0, Simulation time = 0.0
+
+Normal exit
+Thank you for using Veriwell

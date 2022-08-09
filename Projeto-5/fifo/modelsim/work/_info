@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gabriel/Desktop/programming/modelsim_projects/testes
+vfifo
+!s110 1656986627
+!i10b 1
+!s100 j[C6@Y=m`XoNMB:7blzZR1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>K]BDK0d062^oiR[1LVle3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/gabriel/Desktop/fifo/modelsim
+w1656986613
+8/home/gabriel/Desktop/fifo/modelsim/fifo.v
+F/home/gabriel/Desktop/fifo/modelsim/fifo.v
+!i122 0
+L0 1 91
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1656986627.000000
+!s107 /home/gabriel/Desktop/fifo/modelsim/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/gabriel/Desktop/fifo/modelsim/fifo.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vfifo_TB
+!s110 1656986632
+!i10b 1
+!s100 `RNiBeh>D@546AjYhG5[g2
+R0
+IcBe`FO?QCbco03kcH?CgA3
+R1
+R2
+w1656986623
+8/home/gabriel/Desktop/fifo/modelsim/fifo_TB.v
+F/home/gabriel/Desktop/fifo/modelsim/fifo_TB.v
+!i122 1
+L0 3 85
+R3
+r1
+!s85 0
+31
+!s108 1656986632.000000
+!s107 /home/gabriel/Desktop/fifo/modelsim/fifo_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/gabriel/Desktop/fifo/modelsim/fifo_TB.v|
+!i113 1
+R4
+R5
+nfifo_@t@b

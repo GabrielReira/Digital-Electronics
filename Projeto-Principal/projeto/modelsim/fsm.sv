@@ -1,0 +1,53 @@
+module fsm(input clk, input wire logic sim_rst, input wire logic btn_fire);
+  parameter WIN =  5;
+  logic colDireita, colEsquerda; 
+  logic [3:0] scoreEsquerda;
+  logic [3:0] scoreDireita;
+
+  // FSM: gerenciar o jogo
+  parameter [1:0]
+    NEW_GAME = 2'b00,
+      READY = 2'b01,
+      PLAY = 2'b10,
+      END_GAME = 2'b11;
+      
+  reg[1:0] state, next_state;
+
+  always @(posedge clk) begin
+    next_state <= NEW_GAME;
+      case (state)
+          NEW_GAME: next_state = READY;
+          READY: begin
+      if (btn_fire==1) begin
+        next_state = PLAY;
+      end else begin
+        next_state = READY;
+      end
+    end
+    PLAY: begin
+      if (colEsquerda || colDireita) begin
+        if ((scoreEsquerda == WIN) || (scoreDireita == WIN)) begin
+          next_state = END_GAME;
+        end else begin 
+          next_state = READY;
+        end
+      end else begin
+        next_state = PLAY;
+      end
+          end
+          END_GAME: begin
+      if (btn_fire==1) begin
+        next_state = NEW_GAME;
+      end else begin
+        next_state = END_GAME;
+      end
+    end
+          default: next_state = NEW_GAME;
+      endcase
+      if (sim_rst) next_state = NEW_GAME;
+  end
+
+  always @(posedge clk) begin
+    state <= next_state;
+	end
+endmodule
